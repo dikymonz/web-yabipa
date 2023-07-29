@@ -26,7 +26,7 @@ import KontakPage from "./pages/KontakPage";
 
 import NavbarComponent from "./components/NavbarComponent";
 import ScrollToTop from "./components/ScrollToTop";
-// import FooterComponent from "./components/FooterComponent";
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
   return (
@@ -65,7 +65,7 @@ function App() {
         </Routes>
       </Router>
 
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </div>
   );
 }
