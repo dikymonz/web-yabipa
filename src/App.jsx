@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
@@ -28,44 +29,64 @@ import NavbarComponent from "./components/NavbarComponent";
 import ScrollToTop from "./components/ScrollToTop";
 import FooterComponent from "./components/FooterComponent";
 
+import { PulseLoader } from "react-spinners";
+
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
   return (
     <div>
-      <NavbarComponent />
+      {loading ? (
+        <div style={{ width: "100%", height: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <PulseLoader color={"#1B61B6"} loading={loading} size={15} aria-label="Loading Spinner" data-testid="loader" />
+        </div>
+      ) : (
+        <>
+          <NavbarComponent />
 
-      <Router>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" Component={HomePage} />
+          <Router>
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" Component={HomePage} />
 
-          {/* Profil Route */}
-          <Route path="/profil/tentang" Component={TentangPage} />
-          <Route path="/profil/sejarah" Component={SejarahPage} />
-          <Route path="/profil/visi-misi" Component={VisiMisiPage} />
-          <Route path="/profil/profil-santri" Component={ProfilSantri} />
-          <Route path="/profil/profil-guru" Component={ProfilGuru} />
-          <Route path="/profil/profil-sekolah" Component={ProfilSekolah} />
+              {/* Profil Route */}
+              <Route path="/profil/tentang" Component={TentangPage} />
+              <Route path="/profil/sejarah" Component={SejarahPage} />
+              <Route path="/profil/visi-misi" Component={VisiMisiPage} />
+              <Route path="/profil/profil-santri" Component={ProfilSantri} />
+              <Route path="/profil/profil-guru" Component={ProfilGuru} />
+              <Route path="/profil/profil-sekolah" Component={ProfilSekolah} />
 
-          {/* Gallery Route */}
-          <Route path="/gallery/gallery-kbm" Component={KBMPage} />
-          <Route path="/gallery/gallery-ekskul" Component={EkskulPage} />
-          <Route path="/gallery/gallery-lifeskill" Component={LifeSkillPage} />
-          <Route path="/gallery/gallery-event" Component={EventPage} />
-          <Route path="/gallery/gallery-graduation" Component={GraduationPage} />
-          <Route path="/gallery/gallery-fieldtrip" Component={FieldTripPage} />
-          <Route path="/gallery/gallery-munaqosyah" Component={MunaqosyahPage} />
+              {/* Gallery Route */}
+              <Route path="/gallery/gallery-kbm" Component={KBMPage} />
+              <Route path="/gallery/gallery-ekskul" Component={EkskulPage} />
+              <Route path="/gallery/gallery-lifeskill" Component={LifeSkillPage} />
+              <Route path="/gallery/gallery-event" Component={EventPage} />
+              <Route path="/gallery/gallery-graduation" Component={GraduationPage} />
+              <Route path="/gallery/gallery-fieldtrip" Component={FieldTripPage} />
+              <Route path="/gallery/gallery-munaqosyah" Component={MunaqosyahPage} />
 
-          {/* Kurikulum Route */}
-          <Route path="/kurikulum/kalender-pendidikan" Component={KalenderPage} />
-          <Route path="/kurikulum/pesantren" Component={PesantrenPage} />
-          <Route path="/kurikulum/smp" Component={SMPPage} />
+              {/* Kurikulum Route */}
+              <Route path="/kurikulum/kalender-pendidikan" Component={KalenderPage} />
+              <Route path="/kurikulum/pesantren" Component={PesantrenPage} />
+              <Route path="/kurikulum/smp" Component={SMPPage} />
 
-          <Route path="/ppdb" Component={PpdbPage} />
-          <Route path="/kontak" Component={KontakPage} />
-        </Routes>
-      </Router>
+              <Route path="/ppdb" Component={PpdbPage} />
+              <Route path="/kontak" Component={KontakPage} />
+            </Routes>
+          </Router>
 
-      <FooterComponent />
+          <FooterComponent />
+        </>
+      )}
     </div>
   );
 }
