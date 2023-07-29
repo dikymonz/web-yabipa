@@ -120,7 +120,7 @@ const HomePage = () => {
           </Row>
           <Row className="mt-5">
             <Col className="text-center">
-              <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/tentang")}>
+              <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/profil/tentang")}>
                 Detail Tentang Kami <i className="fa-solid fa-chevron-right"></i>{" "}
               </button>
             </Col>
@@ -156,7 +156,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-kbm")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-kbm")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -181,7 +181,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-ekskul")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-ekskul")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -206,7 +206,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-lifeskill")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-lifeskill")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -231,7 +231,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-event")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-event")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -256,7 +256,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-graduation")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-graduation")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -281,7 +281,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-fieldtrip")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-fieldtrip")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -306,7 +306,7 @@ const HomePage = () => {
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery-munaqosyah")}>
+                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-munaqosyah")}>
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
