@@ -1,5 +1,5 @@
 const PesantrenPage = () => {
-  return <div style={{ paddingTop: "100px" }}>PesantrenPage.jsx</div>;
+  return <div style={{ paddingTop: "100px" }}>Kurikulum Pesantren</div>;
 };
 
 export default PesantrenPage;

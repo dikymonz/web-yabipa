@@ -1,5 +1,5 @@
 const SMPPage = () => {
-  return <div style={{ paddingTop: "100px" }}>SMPPage</div>;
+  return <div style={{ paddingTop: "100px" }}>Kurikulum SMP</div>;
 };
 
 export default SMPPage;
