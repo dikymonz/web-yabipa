@@ -18,9 +18,11 @@ import KBMPage from "./pages/gallery/KBMPage";
 import LifeSkillPage from "./pages/gallery/LifeSkillPage";
 import MunaqosyahPage from "./pages/gallery/MunaqosyahPage";
 
-import KalenderPage from "./pages/kurikulum/KalenderPendidikan";
+import YayasanPage from "./pages/kurikulum/YayasanPage";
 import PesantrenPage from "./pages/kurikulum/PesantrenPage";
 import SMPPage from "./pages/kurikulum/SMPPage";
+import KomitePage from "./pages/kurikulum/KomitePage";
+import RelawanPage from "./pages/kurikulum/RelawanPage";
 
 import PpdbPage from "./pages/PpdbPage";
 import KontakPage from "./pages/KontakPage";
@@ -75,9 +77,11 @@ function App() {
               <Route path="/gallery/gallery-munaqosyah" Component={MunaqosyahPage} />
 
               {/* Kurikulum Route */}
-              <Route path="/kurikulum/kalender-pendidikan" Component={KalenderPage} />
+              <Route path="/kurikulum/yayasan" Component={YayasanPage} />
               <Route path="/kurikulum/pesantren" Component={PesantrenPage} />
               <Route path="/kurikulum/smp" Component={SMPPage} />
+              <Route path="/kurikulum/komite" Component={KomitePage} />
+              <Route path="/kurikulum/relawan-yabipa" Component={RelawanPage} />
 
               <Route path="/ppdb" Component={PpdbPage} />
               <Route path="/kontak" Component={KontakPage} />

@@ -49,9 +49,11 @@ const NavbarComponent = () => {
                   </NavDropdown>
 
                   <NavDropdown title="Kurikulum" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                    <NavDropdown.Item href="/kurikulum/yayasan">Yayasan</NavDropdown.Item>
                     <NavDropdown.Item href="/kurikulum/pesantren">Pesantren</NavDropdown.Item>
                     <NavDropdown.Item href="/kurikulum/smp">SMP</NavDropdown.Item>
-                    <NavDropdown.Item href="/kurikulum/kalender-pendidikan">Kalender Pendidikan</NavDropdown.Item>
+                    <NavDropdown.Item href="/kurikulum/komite">Komite</NavDropdown.Item>
+                    <NavDropdown.Item href="/kurikulum/relawan-yabipa">Relawan Yabipa</NavDropdown.Item>
                   </NavDropdown>
 
                   <Nav.Link href="/ppdb">PPDB</Nav.Link>
