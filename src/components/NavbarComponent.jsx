@@ -30,12 +30,20 @@ const NavbarComponent = () => {
                   <Nav.Link href="/">Beranda</Nav.Link>
 
                   <NavDropdown title="Profil" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                    <NavDropdown.Item href="/profil/tentang">Tentang Kami</NavDropdown.Item>
+                    <NavDropdown title="Struktur Oragnisasi" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                      <NavDropdown.Item href="/kurikulum/yayasan">Yayasan Bina Insan Paripurna</NavDropdown.Item>
+                      <NavDropdown.Item href="/kurikulum/pesantren">Pondok Pesantren Quran Yabipa</NavDropdown.Item>
+                      <NavDropdown.Item href="/kurikulum/smp">SMP IT YABIPA</NavDropdown.Item>
+                      <NavDropdown.Item href="/kurikulum/komite">Forum Orangtua Murid</NavDropdown.Item>
+                      <NavDropdown.Item href="/kurikulum/relawan-yabipa">Relawan Yabipa</NavDropdown.Item>
+                    </NavDropdown>
                     <NavDropdown.Item href="/profil/sejarah">Sejarah</NavDropdown.Item>
                     <NavDropdown.Item href="/profil/visi-misi">Visi dan Misi</NavDropdown.Item>
-                    <NavDropdown.Item href="/profil/profil-santri">Profil Santri S2MB3</NavDropdown.Item>
-                    <NavDropdown.Item href="/profil/profil-guru">Profil Guru ISTIMEWA</NavDropdown.Item>
-                    <NavDropdown.Item href="/profil/profil-sekolah">Profil Sekolah SARAMI</NavDropdown.Item>
+                    <NavDropdown title="Falsafah" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                      <NavDropdown.Item href="/profil/profil-santri">Profil Santri S2MB3</NavDropdown.Item>
+                      <NavDropdown.Item href="/profil/profil-guru">Profil Guru ISTIMEWA</NavDropdown.Item>
+                      <NavDropdown.Item href="/profil/profil-sekolah">Profil Sekolah SARAMI</NavDropdown.Item>
+                    </NavDropdown>
                   </NavDropdown>
 
                   <NavDropdown title="Galeri Kegiatan" id={`offcanvasNavbarDropdown-expand-${expand}`}>
@@ -48,16 +56,13 @@ const NavbarComponent = () => {
                     <NavDropdown.Item href="/gallery/gallery-munaqosyah"> Munaqosyah</NavDropdown.Item>
                   </NavDropdown>
 
-                  <NavDropdown title="Kurikulum" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                    <NavDropdown.Item href="/kurikulum/yayasan">Yayasan</NavDropdown.Item>
-                    <NavDropdown.Item href="/kurikulum/pesantren">Pesantren</NavDropdown.Item>
-                    <NavDropdown.Item href="/kurikulum/smp">SMP</NavDropdown.Item>
-                    <NavDropdown.Item href="/kurikulum/komite">Komite</NavDropdown.Item>
-                    <NavDropdown.Item href="/kurikulum/relawan-yabipa">Relawan Yabipa</NavDropdown.Item>
+                  <NavDropdown title="PPDB" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                    <NavDropdown.Item href="/kurikulum/yayasan">Rincian Biaya</NavDropdown.Item>
+                    <NavDropdown.Item href="https://bit.ly/3SRuHFV" target="_blank">
+                      Link Pendaftaran
+                    </NavDropdown.Item>
                   </NavDropdown>
-
-                  <Nav.Link href="/ppdb">PPDB</Nav.Link>
-                  <Nav.Link href="/kontak">Kontak & Sosial Media</Nav.Link>
+                  <Nav.Link href="/kontak">Kontak & Alamat</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
