@@ -30,7 +30,7 @@ const NavbarComponent = () => {
                   <Nav.Link href="/">Beranda</Nav.Link>
 
                   <NavDropdown title="Profil" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                    <NavDropdown title="Struktur Oragnisasi" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                    <NavDropdown className="menu-organisasi ps-2" title="Struktur Organisasi" id={`offcanvasNavbarDropdown-expand-${expand}`}>
                       <NavDropdown.Item href="/kurikulum/yayasan">Yayasan Bina Insan Paripurna</NavDropdown.Item>
                       <NavDropdown.Item href="/kurikulum/pesantren">Pondok Pesantren Quran Yabipa</NavDropdown.Item>
                       <NavDropdown.Item href="/kurikulum/smp">SMP IT YABIPA</NavDropdown.Item>
@@ -39,7 +39,7 @@ const NavbarComponent = () => {
                     </NavDropdown>
                     <NavDropdown.Item href="/profil/sejarah">Sejarah</NavDropdown.Item>
                     <NavDropdown.Item href="/profil/visi-misi">Visi dan Misi</NavDropdown.Item>
-                    <NavDropdown title="Falsafah" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                    <NavDropdown className="menu-falsafah ps-2" title="Falsafah" id={`offcanvasNavbarDropdown-expand-${expand}`}>
                       <NavDropdown.Item href="/profil/profil-santri">Profil Santri S2MB3</NavDropdown.Item>
                       <NavDropdown.Item href="/profil/profil-guru">Profil Guru ISTIMEWA</NavDropdown.Item>
                       <NavDropdown.Item href="/profil/profil-sekolah">Profil Sekolah SARAMI</NavDropdown.Item>

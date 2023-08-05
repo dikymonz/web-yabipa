@@ -8,6 +8,16 @@
   color: black;
 }
 
+.menu-organisasi .dropdown-menu[data-bs-popper] {
+  top: 0;
+  left: 185px;
+}
+
+.menu-falsafah .dropdown-menu[data-bs-popper] {
+  top: 0;
+  left: 100px;
+}
+
 @media screen and (max-width: 992px) {
   .navbar-nav a {
     font-size: 24px;
