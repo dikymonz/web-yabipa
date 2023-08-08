@@ -24,7 +24,7 @@ import SMPPage from "./pages/kurikulum/SMPPage";
 import KomitePage from "./pages/kurikulum/KomitePage";
 import RelawanPage from "./pages/kurikulum/RelawanPage";
 
-import PpdbPage from "./pages/PpdbPage";
+import RincianBiayaPage from "./pages/ppdb/RincianBiayaPage";
 import KontakPage from "./pages/KontakPage";
 
 import NavbarComponent from "./components/NavbarComponent";
@@ -83,7 +83,7 @@ function App() {
               <Route path="/kurikulum/komite" Component={KomitePage} />
               <Route path="/kurikulum/relawan-yabipa" Component={RelawanPage} />
 
-              <Route path="/ppdb" Component={PpdbPage} />
+              <Route path="/ppdb/rincian-biaya" Component={RincianBiayaPage} />
               <Route path="/kontak" Component={KontakPage} />
             </Routes>
           </Router>

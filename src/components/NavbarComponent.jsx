@@ -57,7 +57,7 @@ const NavbarComponent = () => {
                   </NavDropdown>
 
                   <NavDropdown title="PPDB" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                    <NavDropdown.Item href="/kurikulum/yayasan">Rincian Biaya</NavDropdown.Item>
+                    <NavDropdown.Item href="/ppdb/rincian-biaya">Rincian Biaya</NavDropdown.Item>
                     <NavDropdown.Item href="https://bit.ly/3SRuHFV" target="_blank">
                       Link Pendaftaran
                     </NavDropdown.Item>
