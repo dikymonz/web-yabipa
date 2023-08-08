@@ -18,7 +18,7 @@ const HomePage = () => {
 
   return (
     <div className="homepage">
-      <div className="berita-terbaru w-100 min-vh-100">
+      <div className="berita-terbaru w-100">
         <Container className="overflow-hidden px-3 mx-auto">
           <Row>
             <Col className="p-0 mb-3">
