@@ -6,7 +6,7 @@ const NavbarComponent = () => {
   return (
     <div>
       {["lg"].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-white mb-3 py-3 fixed-top w-100 z-3">
+        <Navbar key={expand} expand={expand} className="bg-white mb-3 py-3 fixed-top w-100 z-3 shadow-sm">
           <Container>
             <Navbar.Brand href="/" className="d-flex align-items-center">
               <img alt="" src={Logo} width="60" height="60" className="logo-img d-inline-block align-top me-2" />
