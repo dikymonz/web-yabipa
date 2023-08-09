@@ -20,11 +20,6 @@ const HomePage = () => {
     <div className="homepage">
       <div className="berita-terbaru w-100">
         <Container className="overflow-hidden px-3 mx-auto">
-          <Row>
-            <Col className="p-0 mb-3">
-              <button className="btn btn-success">Berita Terkini</button>
-            </Col>
-          </Row>
           <Row className="berita-utama row-cols-md-2 row-cols-1 flex-md-nowrap flex-wrap gap-md-1 gap-4 mb-md-1 mb-4">
             <Col className="position-relative overflow-hidden p-0">
               <img src={Hero1} alt="berita-utama-1" width="100%" />
