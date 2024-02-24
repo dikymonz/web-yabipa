@@ -25,10 +25,19 @@ const HomePage = () => {
               <img src={Hero1} alt="berita-utama-1" width="100%" />
               <div className="bg"></div>
               <div className="info-berita px-3">
-                <button className="btn btn-primary btn-sm mb-2">Santri</button>
-                <h4 className="text-white fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit.</h4>
+                <button className="btn btn-primary btn-sm mb-2">Siswa</button>
+                <h4 className="text-white fw-bold">
+                  Hari Senin adalah hari yang sama dengan hari Senin lalu,
+                  kecuali satu
+                </h4>
+                <p className="text-white fw-bold">
+                  yakni semangat baru untuk mengawalinya. Apel pengibaran
+                  bendera Pertama dengan suasana dan wajah sekolah yang baru
+                </p>
+
                 <p className="text-white">
-                  <span className="fw-semibold">Team IT Yabipa</span> - 30 Juli 2023
+                  <span className="fw-semibold">OSIS SMANSA</span> - 20 Februari
+                  2024
                 </p>
               </div>
             </Col>
@@ -36,10 +45,13 @@ const HomePage = () => {
               <img src={Hero2} alt="berita-utama-2" width="100%" />
               <div className="bg"></div>
               <div className="info-berita px-3">
-                <button className="btn btn-primary btn-sm mb-2">Santri</button>
-                <h4 className="text-white fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit.</h4>
+                <button className="btn btn-primary btn-sm mb-2">Guru</button>
+                <h4 className="text-white fw-bold">
+                  SMAN 1 SEMBALUN melaksanakan kegiatan P.5
+                </h4>
                 <p className="text-white">
-                  <span className="fw-semibold">Team IT Yabipa</span> - 30 Juli 2023
+                  <span className="fw-semibold">Team Smansa</span> - 17 Februari
+                  2024
                 </p>
               </div>
             </Col>
@@ -49,10 +61,16 @@ const HomePage = () => {
               <img src={Hero3} alt="" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
-                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">Santri</button>
-                <p className="fw-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit.</p>
+                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">
+                  Kepala Sekolah
+                </button>
+                <p className="fw-semibold">
+                  Study Tiru di SMAN 1 WRINGINANOM GRESIK KAB. GRESIK JATIM
+                  sudah selesai dilaksanakan.
+                </p>
                 <p className="date">
-                  <span className="fw-semibold">Team IT Yabipa</span> - 30 Juli 2023
+                  <span className="fw-semibold">Team Smansa</span> - 23 Februari
+                  2024
                 </p>
               </div>
             </Col>
@@ -60,10 +78,16 @@ const HomePage = () => {
               <img src={Hero4} alt="" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
-                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">Santri</button>
-                <p className="fw-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit.</p>
+                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">
+                  Kepala Sekolah
+                </button>
+                <p className="fw-semibold">
+                  STUDI TIRU di SMAN TAWANGMANGU Kec. Tawangmangu Kab.
+                  Karanganyar Jawa Tengah.
+                </p>
                 <p className="date">
-                  <span className="fw-semibold">Team IT Yabipa</span> - 30 Juli 2023
+                  <span className="fw-semibold">Team Smansa</span> - 21 Februari
+                  2024.
                 </p>
               </div>
             </Col>
@@ -71,10 +95,17 @@ const HomePage = () => {
               <img src={Hero5} alt="" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
-                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">Santri</button>
-                <p className="fw-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit.</p>
+                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">
+                  Siswa
+                </button>
+                <p className="fw-semibold">
+                  SMAN 1 Sembalun memang indah jika sudah mulai dibersihkan dan
+                  dikelola. Disinilah program Kewirausahaan dan kegiatan P5
+                  dilaksanakan.
+                </p>
                 <p className="date">
-                  <span className="fw-semibold">Team IT Yabipa</span> - 30 Juli 2023
+                  <span className="fw-semibold">Team Smansa</span> - 15 Februari
+                  2024
                 </p>
               </div>
             </Col>
@@ -82,10 +113,16 @@ const HomePage = () => {
               <img src={Hero6} alt="" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
-                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">Santri</button>
-                <p className="fw-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit.</p>
+                <button className="btn btn-primary btn-sm mb-2 d-sm-block d-none">
+                  Siswa
+                </button>
+                <p className="fw-semibold">
+                  Mengikuti Kegiatan Indonesia Education & Carier Festival (IECA
+                  FEST 2024) di Ballroom Hotel Vaganza Mataram.
+                </p>
                 <p className="date">
-                  <span className="fw-semibold">Team IT Yabipa</span> - 30 Juli 2023
+                  <span className="fw-semibold">Team Smansa</span> - 20 Januari
+                  2024
                 </p>
               </div>
             </Col>
@@ -103,22 +140,30 @@ const HomePage = () => {
           <Row>
             <Col>
               <p className="lh-lg" style={{ textAlign: "justify" }}>
-                Kemajuan sains dan teknologi di zaman ini menimbulkan konsekwensi yang berdampak negatif, yaitu berupa kemerosotan nilai-nilai moral. Konsep-konsep kebebasan dan pengagungan akal materialisme (intelegent quotiont) telah
-                menjebak manusia itu sendiri pada kebuntuan dan kekosongan akan nilai, pola fikir menjadi liar dan nilai-nilai budaya adiluhung semakin merosot.
+                SMA Negeri 1 Sembalun adalah sebuah sekolah menengah atas negeri
+                yang terletak di Desa Sembalun, Kecamatan Sembalun, Kabupaten
+                Lombok Timur, Nusa Tenggara Barat, Indonesia. Sekolah ini
+                didirikan pada tahun 2004 dan memiliki luas tanah 12.000 meter
+                persegi.
               </p>
               <p className="lh-lg" style={{ textAlign: "justify" }}>
-                Kini mulai disadari, konsep pendidikan yang digunakan ternyata salah arah dan para pendidik mulai menggali konsep-konsep pendidikan baru dengan penekanan pada emosional, lalu spriritual dan entah apalagi. Hal ini terjadi
-                karena tidak adanya visi dan misi pendidikan yang membawa manusia ke arah kaidah-kaidah yang mutlaq/hakiki, dan terealisasikan dalam proses pembelajaran di lingkungannya, khususnya lingkungan akademiknya.
-              </p>
-              <p className="lh-lg" style={{ textAlign: "justify" }}>
-                Sebagai upaya partisipatif dalam rangka menghadapi keterpurukan pendidikan, maka Yayasan Bina Insan Paripurna sedang membangun Pondok Pesantren Qur-an Yabipa yang terintegrasi dengan SMP IT (Islam Terpadu) di Bandung.
+                SMAN 1 Sembalun adalah salah satu sekolah menengah atas terbaik
+                di Lombok Timur. Sekolah ini memiliki banyak keunggulan, seperti
+                guru-guru yang berkualitas, fasilitas belajar yang lengkap,
+                banyak prestasi, dan lingkungan belajar yang kondusif. Bagi
+                siswa-siswi yang ingin mendapatkan pendidikan yang berkualitas
+                dan berprestasi, SMAN 1 Sembalun adalah pilihan yang tepat.
               </p>
             </Col>
           </Row>
           <Row className="mt-5">
             <Col className="text-center">
-              <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/profil/tentang")}>
-                Detail Tentang Kami <i className="fa-solid fa-chevron-right"></i>{" "}
+              <button
+                className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                onClick={() => navigate("/profil/tentang")}
+              >
+                Detail Tentang Kami{" "}
+                <i className="fa-solid fa-chevron-right"></i>{" "}
               </button>
             </Col>
           </Row>
@@ -137,23 +182,41 @@ const HomePage = () => {
           <div className="mb-5">
             <Row style={{ marginTop: "100px" }}>
               <Col>
-                <h1 className="section-title mb-4">KBM</h1>
+                <h1 className="section-title mb-4">Osis Smansa Sembalun</h1>
               </Col>
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
               <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM1}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM2}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM3}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-kbm")}>
+                <button
+                  className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                  onClick={() => navigate("/gallery/gallery-kbm")}
+                >
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -167,18 +230,36 @@ const HomePage = () => {
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
               <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM1}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM2}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM3}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-ekskul")}>
+                <button
+                  className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                  onClick={() => navigate("/gallery/gallery-ekskul")}
+                >
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -192,18 +273,36 @@ const HomePage = () => {
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
               <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM1}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM2}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM3}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-lifeskill")}>
+                <button
+                  className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                  onClick={() => navigate("/gallery/gallery-lifeskill")}
+                >
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -217,18 +316,36 @@ const HomePage = () => {
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
               <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM1}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM2}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM3}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-event")}>
+                <button
+                  className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                  onClick={() => navigate("/gallery/gallery-event")}
+                >
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -242,18 +359,36 @@ const HomePage = () => {
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
               <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM1}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM2}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM3}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-graduation")}>
+                <button
+                  className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                  onClick={() => navigate("/gallery/gallery-graduation")}
+                >
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>
@@ -262,48 +397,41 @@ const HomePage = () => {
           <div className="mb-5">
             <Row style={{ marginTop: "100px" }}>
               <Col>
-                <h1 className="section-title mb-4">Fieldtrip</h1>
+                <h1 className="section-title mb-4">Studi Tour</h1>
               </Col>
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
               <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM1}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM2}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
               <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
+                <img
+                  src={KBM3}
+                  alt="unsplash.com"
+                  className="w-100"
+                  style={{ height: "250px" }}
+                />
               </Col>
             </Row>
             <Row className="mt-5">
               <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-fieldtrip")}>
-                  Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
-                </button>
-              </Col>
-            </Row>
-          </div>
-          <div className="mb-5">
-            <Row style={{ marginTop: "100px" }}>
-              <Col>
-                <h1 className="section-title mb-4">Munaqosyah</h1>
-              </Col>
-            </Row>
-            <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-4">
-              <Col>
-                <img src={KBM1} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
-              </Col>
-              <Col>
-                <img src={KBM2} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
-              </Col>
-              <Col>
-                <img src={KBM3} alt="unsplash.com" className="w-100" style={{ height: "250px" }} />
-              </Col>
-            </Row>
-            <Row className="mt-5">
-              <Col className="text-center">
-                <button className="btn btn-success btn-lg rounded-pill fs-5 px-4" onClick={() => navigate("/gallery/gallery-munaqosyah")}>
+                <button
+                  className="btn btn-success btn-lg rounded-pill fs-5 px-4"
+                  onClick={() => navigate("/gallery/gallery-fieldtrip")}
+                >
                   Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
                 </button>
               </Col>

@@ -13,18 +13,48 @@ const VisiMisiPage = () => {
           <Row>
             <Col>
               <h1>Visi</h1>
-              <p>Membangun Lembaga Pendidikan Islam Terpadu Yang Terpercaya Dengan Mengusung Kearifan Lokal.</p>
+              <p>
+                Berdasarkan tantangan, peluang dan daya dukung yang ada, SMA
+                Negeri 1 Sembalun mempunyai cita – cita yang menggambarkan
+                profil sekolah yang diinginkan di masa dating yang mewujudkan
+                dalam Visi sekolah.{" "}
+                <strong>
+                  {" "}
+                  Membangun Generasi Cerdas, Terampil, Berbudaya yang berwawasan
+                  Lingkungan berlandaskan Iman dan Taqwa.
+                </strong>
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <h1>Misi</h1>
               <p>
+                Untuk mewujudkan Visi Sekolah, SMA Negeri 1 Sembalun menentukan
+                langkah – langkah strategis yang dinyatakan dalam Misi sebagai
+                berikut:
+              </p>
+              <p>
                 <ol>
-                  <li>Mendidik Para Siswa yang Berkarakter Islami.</li>
-                  <li>Menyelenggarakan Pendidikan Pondok Pesantren Dengan Fasilitas terbaik (The Best Boarding School).</li>
-                  <li>Menyelenggarakan Pendidikan Nasional (SMP/SMA/SMK) Terbaik.</li>
-                  <li>Menyelenggarakan Klinik Usaha Sebagai Sarana Pelatihan Bagi Para Siswa.</li>
+                  <li>
+                    Melaksanakan pembelajaran dan bimbingan secara efektif
+                    sehingga setiap peserta didik berkembang secara optimal,
+                    sesuai dengan potensi yang dimiliki.
+                  </li>
+                  <li>
+                    Mendorong dan membantu setiap peserta didik untuk mengenali
+                    potensi dirinya sehingga dapat berkembang secara optimal.
+                  </li>
+                  <li>
+                    Menumbuhkan penghayatan terhadap ajaran agama yang dianut
+                    dan budaya bangsa sehingga menjadi sumber kearifan dalam
+                    bertindak.
+                  </li>
+                  <li>
+                    Menerapkan manajemen partisipatif dengan melibatkan seluruh
+                    warga sekolah dan kelompok kepentingan yang terkait dengan
+                    sekolah.
+                  </li>
                 </ol>
               </p>
             </Col>
